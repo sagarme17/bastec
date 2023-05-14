@@ -13,21 +13,16 @@ export default function RootLayout({ children }: any) {
   return (
     <html lang="es">
       <head>
-      <title>Bastec</title>
+        <title>Bastec</title>
       </head>
-
-      <body>
-        <header>
-          <nav>
-           
-          </nav>
-        </header>
-          {/*<SideNavbar />*/}
-
-          
-
-        {children}
-        </body>
+      <body className='overflow-hidden h-screen'>
+        <div className='flex flex-row w-full h-full p-0'>
+          <SideNavbar />
+          <div className='w-full h-full bg-white'>
+            <h1>Hello World</h1>
+          </div>
+        </div>
+      </body>
     </html>
   )
 }

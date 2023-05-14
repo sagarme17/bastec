@@ -12,9 +12,3 @@
 .container {
   flex-wrap: wrap-reverse
 }
-
-div{
-	width: 200px;
-	padding: 25px 0;
-	margin: 0;
-}
